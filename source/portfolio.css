@@ -1,0 +1,318 @@
+/*
+
+	Portfolio Styling
+	
+	Portfolio includes are loaded only when required plugin is active.
+
+*/
+/* line 13, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-header-wrapper .entry-header-decoration {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2px;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+/* line 26, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-content-wrapper {
+  padding-bottom: 0;
+}
+
+/* line 34, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer {
+  margin-bottom: 77px;
+}
+/* line 38, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-footer-right-column {
+  position: relative;
+  display: block;
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+/* line 49, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-footer-decoration {
+  margin-bottom: 13px;
+}
+/* line 55, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-load-more {
+  font-size: 12px;
+  line-height: 25px;
+  color: #bebebe;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 69, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-load-more:hover {
+  color: #222;
+}
+/* line 72, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-load-more.all-loaded {
+  cursor: default;
+}
+/* line 76, portfolio.scss */
+#site-body.single-page article.template-porfolio .entry-wrapper .entry-footer-wrapper .entry-footer .entry-load-more.all-loaded:hover {
+  color: #bebebe;
+}
+
+/* line 92, portfolio.scss */
+#portfolio-wrapper {
+  position: relative;
+  display: block;
+}
+/* line 97, portfolio.scss */
+#portfolio-wrapper #portfolio-entries {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 400px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 105, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article {
+  position: relative;
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 116, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article:nth-child(even) {
+  padding-left: 15px;
+}
+/* line 122, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article:nth-child(odd) {
+  padding-right: 15px;
+}
+/* line 128, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article.ajax-appended {
+  opacity: 0;
+}
+/* line 134, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper {
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 141, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media {
+  position: relative;
+  display: block;
+  background-color: #000;
+}
+/* line 148, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+}
+/* line 156, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media a:hover {
+  border: none;
+}
+/* line 160, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media a:hover .read-more {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 166, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media a:hover img {
+  opacity: 0.5;
+}
+/* line 176, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media .read-more {
+  position: absolute;
+  display: block;
+  padding: 13px 36px 12px 36px;
+  top: 50%;
+  left: 50%;
+  margin-left: -85px;
+  margin-top: -25px;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+  opacity: 0;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+  -o-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  -ms-border-radius: 64px;
+  -o-border-radius: 64px;
+  border-radius: 64px;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+}
+/* line 206, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media .read-more:hover {
+  color: #fff;
+  background-color: #0c0c0c;
+}
+/* line 214, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-media-wrapper .portfolio-entry-media img {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+/* line 232, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-title {
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: none;
+}
+/* line 238, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-title a {
+  border-color: #fff;
+}
+/* line 242, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-title a:hover {
+  color: #3498db;
+  border-bottom: 2px solid #eee;
+}
+/* line 255, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-meta .portfolio-entry-category {
+  font-size: 12px;
+  line-height: 25px;
+}
+/* line 260, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-meta .portfolio-entry-category a {
+  color: #777;
+  font-weight: normal;
+  border: none;
+}
+/* line 267, portfolio.scss */
+#portfolio-wrapper #portfolio-entries article .portfolio-entry-footer-wrapper .portfolio-entry-footer .portfolio-entry-meta .portfolio-entry-category a:hover {
+  color: #222;
+}
+
+/* line 289, portfolio.scss */
+.related-portfolio-wrapper {
+  position: relative;
+  display: block;
+  margin-bottom: 75px;
+}
+/* line 296, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.01);
+}
+/* line 304, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-header-wrapper {
+  position: relative;
+  display: block;
+}
+/* line 309, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-header-wrapper .related-portfolio-header {
+  display: block;
+  position: relative;
+  margin: 75px auto 25px auto;
+  z-index: 10;
+}
+/* line 318, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-header-wrapper .related-portfolio-header .related-portfolio-title {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+  padding-right: 40px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #222222;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+/* line 334, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-header-wrapper .related-portfolio-header .related-portfolio-title-decoration {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #dddddd;
+}
+/* line 356, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-content-wrapper {
+  display: block;
+  position: relative;
+}
+/* line 361, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-content-wrapper .related-portfolio-content {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 372, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-footer-wrapper {
+  position: relative;
+  display: block;
+}
+/* line 377, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-footer-wrapper .related-portfolio-footer {
+  position: relative;
+  display: block;
+  margin: 0px auto 73px auto;
+}
+/* line 385, portfolio.scss */
+.related-portfolio-wrapper .related-portfolio .related-portfolio-footer-wrapper .related-portfolio-footer .related-portfolio-footer-decoration {
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 718px) {
+  /* line 410, portfolio.scss */
+  #portfolio-wrapper #portfolio-entries article {
+    width: 100%;
+  }
+  /* line 414, portfolio.scss */
+  #portfolio-wrapper #portfolio-entries article:nth-child(even) {
+    padding-left: 0;
+  }
+  /* line 420, portfolio.scss */
+  #portfolio-wrapper #portfolio-entries article:nth-child(odd) {
+    padding-right: 0;
+  }
+}

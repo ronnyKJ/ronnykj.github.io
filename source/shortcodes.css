@@ -1,0 +1,283 @@
+/*
+
+	Coffee Shortcodes Plugin Styling
+	
+		
+*/
+/* line 11, shortcodes.scss */
+.ce-shortcode {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 15, shortcodes.scss */
+.ce-shortcode.ce_shortcode_section {
+  position: relative;
+  display: block;
+  border-bottom: 2px solid #dddddd;
+  padding-left: 20px;
+  line-height: 50px;
+  margin-bottom: 23px;
+}
+/* line 26, shortcodes.scss */
+.ce-shortcode.ce_shortcode_separator {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #dddddd;
+  margin-bottom: 23px;
+}
+/* line 37, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 4%;
+}
+/* line 44, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.one-one {
+  width: 100%;
+  margin-right: 0;
+  clear: right;
+}
+/* line 45, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.one-half {
+  width: 48%;
+}
+/* line 46, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.one-third {
+  width: 30.66%;
+}
+/* line 47, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.two-third {
+  width: 65.33%;
+}
+/* line 48, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.one-fourth {
+  width: 22%;
+}
+/* line 49, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.three-fourth {
+  width: 74%;
+}
+/* line 51, shortcodes.scss */
+.ce-shortcode.ce_shortcode_column.last {
+  margin-right: 0;
+  clear: right;
+}
+/* line 55, shortcodes.scss */
+.ce-shortcode.ce_shortcode_button {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px 25px 12px;
+  margin-bottom: 25px;
+  max-width: 100%;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  -ms-border-radius: 64px;
+  -o-border-radius: 64px;
+  border-radius: 64px;
+}
+/* line 79, shortcodes.scss */
+.ce-shortcode.ce_shortcode_button:hover {
+  color: #fff !important;
+  background-color: #0c0c0c !important;
+  border: none;
+}
+/* line 89, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs {
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+}
+/* line 95, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-nav {
+  position: relative;
+  display: block;
+  margin: 0;
+}
+/* line 101, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-nav li {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 0;
+}
+/* line 108, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-nav li a {
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 13px 20px 12px;
+  text-transform: uppercase;
+  color: #bebebe;
+  border: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 127, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-nav li a:hover {
+  color: #222;
+}
+/* line 137, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-nav li.ui-state-active a {
+  color: #222;
+  background-color: #f9f9f9;
+  cursor: default;
+}
+/* line 150, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-content {
+  position: relative;
+  display: block;
+  border-top: 1px solid #dddddd;
+}
+/* line 156, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tabs .tabs-content .tab-content {
+  position: relative;
+  display: block;
+  padding: 25px 20px 0 20px;
+}
+/* line 170, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours {
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+}
+/* line 176, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-nav {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0 0 25px 0;
+  text-align: right;
+  border-right: 1px solid #dddddd;
+}
+/* line 186, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-nav li {
+  position: relative;
+  display: block;
+  list-style: none;
+  margin-bottom: 0;
+}
+/* line 193, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-nav li a {
+  position: relative;
+  display: block;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 13px 20px 12px;
+  text-transform: uppercase;
+  color: #bebebe;
+  border: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 212, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-nav li a:hover {
+  color: #222;
+}
+/* line 222, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-nav li.ui-state-active a {
+  color: #222;
+  background-color: #f9f9f9;
+  cursor: default;
+}
+/* line 235, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-content {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  float: right;
+}
+/* line 242, shortcodes.scss */
+.ce-shortcode.ce_shortcode_tours .tours-content .tour-content {
+  position: relative;
+  display: block;
+  padding: 25px 20px 0 20px;
+}
+
+/* line 259, shortcodes.scss */
+.ce_clearfix:before,
+.ce_clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 260, shortcodes.scss */
+.ce_clearfix:after {
+  clear: both;
+}
+
+/* line 261, shortcodes.scss */
+.ce_clearfix {
+  zoom: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media only screen and (max-width: 588px) {
+  /* line 277, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_column {
+    margin-right: 0;
+  }
+  /* line 286, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_column.one-one, .ce-shortcode.ce_shortcode_column.one-half, .ce-shortcode.ce_shortcode_column.one-third, .ce-shortcode.ce_shortcode_column.two-third, .ce-shortcode.ce_shortcode_column.one-fourth, .ce-shortcode.ce_shortcode_column.three-fourth {
+    width: 100%;
+    margin-right: 0;
+    clear: right;
+  }
+  /* line 287, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_column.last {
+    margin-right: 0;
+    clear: right;
+  }
+  /* line 295, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_tabs .tabs-nav li {
+    display: block;
+    width: 100%;
+  }
+  /* line 300, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_tabs .tabs-nav li a {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  /* line 315, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_tours .tours-nav {
+    width: 100%;
+    margin-bottom: 0px;
+    border-right: none;
+    border-bottom: 1px solid #dddddd;
+  }
+  /* line 322, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_tours .tours-nav li {
+    text-align: left;
+  }
+  /* line 329, shortcodes.scss */
+  .ce-shortcode.ce_shortcode_tours .tours-content {
+    width: 100%;
+  }
+}
